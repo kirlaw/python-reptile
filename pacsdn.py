@@ -5,6 +5,7 @@ import urllib.request
 def getlink(url):
     #模拟成浏览器
     headers = ("User-Agent","Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0")
+    #当你获取一个url时使用一个opener，传入参数仅仅是url,data,timeout
     opener = urllib.request.build_opener()
     opener.addheaders = [headers]
     #将opener安装为全局
