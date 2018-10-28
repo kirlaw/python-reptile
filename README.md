@@ -8,3 +8,5 @@ python学习过程记录
 广州气象：http://www.tqyb.com.cn/
 天气频道（兰德马克）：https://weather.com/zh-CN/weather/today/l/CHXX0008:1:CH
 Aqicn（美国）：http://aqicn.org/city/beijing/
+
+查看网站的robots.txt文件了解爬取该网站的限制
