@@ -2,7 +2,7 @@
 User-agent: *
 Allow: /
 
-上海天气网和广州气象无法打开robots.txt
+上海天气网和广州气象Aqicn(美国)无法打开robots.txt，说明网页没有对爬虫做出限制
 
 天气频道（兰德马克）：https://weather.com/robots.txt
 #
@@ -179,4 +179,4 @@ Sitemap: https://weather.com/en-IN/sitemaps/sitemap.xml
 Sitemap: https://weather.com/en-GB/sitemaps/sitemap.xml
 Sitemap: https://weather.com/en-CA/sitemaps/sitemap.xml
 
-Aqicn(美国)无法打开
+
