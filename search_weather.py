@@ -4,7 +4,7 @@ import re
 import lxml.html
 import urllib.request
 #为java代码调用python用
-#from sys import city_name
+#import sys
 
 #写入csv
 def wcsv(html):
@@ -41,7 +41,7 @@ def get_url(city_name):
         for line in lines:
             if (city_name in line):
                 code = line.split(',')[1].strip()
-                #print(code)
+                print(code)
                 return url + code + ':1:CH'
     raise ValueError('invalid city name')
 
@@ -51,6 +51,8 @@ if __name__ == '__main__'之下的代码块将被运行；当.py文件以模块�
 导入时，if __name__ == '__main__'之下的代码块不被运行。
 '''
 if __name__ == '__main__':
+    #java调用时注释掉这一句
     city_name=input('请输入城市名：')
+    #java调用时使用 html=get_url(sys.argv[1])
     html=get_url(city_name)
     wcsv(html)
